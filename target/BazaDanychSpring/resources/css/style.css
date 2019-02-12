@@ -1,0 +1,54 @@
+body h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h2{
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black;
+	text-transform: uppercase;
+}
+
+a.navbar-brand{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	font-size: 20px;
+	
+}
+tabelka.td{
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+button.btn{
+margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+input.form-control{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+select.form-control{
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+form-group.label{
+	margin-left: 10px;
+}
+form-group.td{
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
