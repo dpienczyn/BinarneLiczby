@@ -16,7 +16,7 @@ import com.tuto.model.Liczba;
 @Controller
 public class LiczbaController {
 
-	@RequestMapping(value = "/number", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView oblicz(ModelAndView model) {
         Liczba liczba = new Liczba();
         model.addObject("liczba", liczba);
@@ -25,7 +25,7 @@ public class LiczbaController {
     }
 	
 	
-	@RequestMapping(value="/number",  method = RequestMethod.POST)
+	@RequestMapping(value="/",  method = RequestMethod.POST)
     public ModelAndView calculateBmi(@ModelAttribute("number") Liczba licz ){
 		String str1;
 		String str2;
