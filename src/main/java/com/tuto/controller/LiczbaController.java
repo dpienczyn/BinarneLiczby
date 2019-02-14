@@ -25,7 +25,7 @@ public class LiczbaController {
     }
 	
 	
-	@RequestMapping(value="/",  method = RequestMethod.POST)
+	@RequestMapping(value="/number",  method = RequestMethod.POST)
     public ModelAndView calculateBmi(@ModelAttribute("number") Liczba licz ){
 		String str1;
 		String str2;

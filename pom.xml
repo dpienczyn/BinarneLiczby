@@ -8,7 +8,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <name>BazaDanychSpring Maven Webapp</name>
 	<url>http://maven.apache.org</url>
     <properties>
-    <project-name>${project.name}</project-name>
+    
         <springframework.version>4.2.5.RELEASE</springframework.version>
         <springsecurity.version>4.0.4.RELEASE</springsecurity.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
@@ -77,11 +77,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <version>1.1.0.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<!-- <dependency>
+<dependency>
     <groupId>log4j</groupId>
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
-</dependency> -->
+</dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
@@ -156,7 +156,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </dependencies>
 
     <build>
-    <finalName>${project-name}</finalName>
+    <finalName>BazaDanychSpring</finalName>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
