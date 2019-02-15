@@ -20,12 +20,12 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/form.css"/>" />
 </head>
 <body>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+       <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-4">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
+            <li><a href="http://kalkulatorek.herokuapp.com/">Home</a></li>
             <li><a href="https://github.com/dpienczyn">O mnie</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="http://kalkulatorek.herokuapp.com/kontakt">Kontakt</a></li>
             <li>
               <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse4" aria-expanded="false" aria-controls="nav-collapse4">Profil <i class=""></i> </a>
             </li>
