@@ -69,7 +69,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <artifactId>hibernate-core</artifactId>
             <version>${hibernate.version}</version>
         </dependency>
-
         <!-- jsr303 validation -->
         <dependency>
             <groupId>javax.validation</groupId>
@@ -99,7 +98,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector.version}</version>
         </dependency>
-
         <!-- SLF4J/Logback -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
